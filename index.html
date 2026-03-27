@@ -1,0 +1,552 @@
+<!doctype html>
+<html lang="en-IN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>VasyERP - Badhaye Business Ka Sense</title>
+
+    <meta name="description" content="VasyERP - Badhaye Business Ka Sense" />
+    <meta
+      name="keywords"
+      content="Cloud based Accounting Software in india, pos Software in india, erp software in india, online Accounting Software in india, Online pos software. best pos software, best accounting software, pos software for supermarket, billing software for retailer"
+    />
+    <meta name="author" content="Aditya Ranawat" />
+
+    <meta name="theme-color" content="#0d6efd" />
+
+    <meta property="og:title" content="VasyERP - Badhaye Business Ka Sense" />
+    <meta
+      property="og:description"
+      content="4X Revenue Growth, Save Up to 120+ Billing Hours, 90% Faster Processing, 99% Fewer Errors. Trusted by brands like Lee Cooper, Mars Cosmetics, Iscon Gathiya & many more retail chains."
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:image"
+      content="https://vasyerp.com/assets-new/images/favicon.png"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <link
+      rel="preload"
+      as="image"
+      href="assets/vasylogo.png"
+      type="image/png"
+    />
+  </head>
+
+  <body>
+    <nav
+      class="navbar navbar-expand-lg bg-white shadow rounded-4 px-3 py-2 position-fixed top-0 start-50 translate-middle-x mt-3"
+      style="z-index: 1030; width: 90%; max-width: 1100px"
+    >
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#hero">
+          <img
+            src="assets/vasylogo.png"
+            alt="VasyERP Logo"
+            class="img-fluid logo-img"
+            width="120"
+            height="40"
+            loading="eager"
+            decoding="async"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navMenu"
+          aria-controls="navMenu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#hero">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#why">Why</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#solution">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section
+      id="hero"
+      class="header-bg text-white d-flex align-items-center cstm-hero"
+    >
+      <div class="container">
+        <div
+          id="heroCarousel"
+          class="carousel slide carousel-dark hero-carousel"
+          data-bs-ride="carousel"
+          data-bs-interval="3000"
+          data-bs-pause="hover"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="0"
+              class="active"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#heroCarousel"
+              data-bs-slide-to="1"
+            ></button>
+          </div>
+
+          <!-- Slides -->
+          <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+              <div class="row align-items-center text-center text-lg-start">
+                <!-- Left Content -->
+                <div class="col-lg-6">
+                  <h1 class="display-4 fw-semibold">
+                    Transform Your Business This Financial Year
+                  </h1>
+                  <p class="lead">
+                    Don't let outdated workflows hold you back. Upgrade to a
+                    smarter system this financial year.
+                  </p>
+                  <button
+                    class="btn btn-light btn-lg mt-3"
+                    onclick="showAlert()"
+                  >
+                    Get Started
+                  </button>
+                </div>
+
+                <!-- Right Image -->
+                <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                  <img
+                    src="assets/VASYkaka.png"
+                    class="img-fluid"
+                    alt="Business Dashboard"
+                    width="500"
+                    height="350"
+                    loading="eager"
+                    decoding="async"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <!-- Slide 2  -->
+            <div class="carousel-item">
+              <div class="text-center">
+                <h2 class="fw-semibold my-4">What Our Customers Say</h2>
+
+                <div class="row g-4">
+                  <!-- Card 1 -->
+                  <div class="col-md-6">
+                    <div
+                      class="bg-white text-dark p-4 rounded-4 shadow h-100 review-card"
+                    >
+                      <h6 class="text-uppercase text-muted small">
+                        Apparel Brand Kumar Shirts
+                      </h6>
+
+                      <h5 class="fw-semibold">
+                        Transformed Business Operations with VasyERP
+                      </h5>
+
+                      <p class="mt-3 mb-2">
+                        “VasyERP fit our process perfectly and streamlined our
+                        daily operations.”
+                      </p>
+
+                      <small class="fw-semibold d-block">
+                        Arshad Damani (Owner)
+                      </small>
+                    </div>
+                  </div>
+
+                  <!-- Card 2 -->
+                  <div class="col-md-6">
+                    <div
+                      class="bg-white text-dark p-4 rounded-4 shadow h-100 review-card"
+                    >
+                      <h6 class="text-uppercase text-muted small">
+                        Retail Chain Expansion
+                      </h6>
+
+                      <h5 class="fw-semibold">
+                        Scaling Operations Across Multiple Stores
+                      </h5>
+
+                      <p class="mt-3 mb-2">
+                        “We were able to manage multiple outlets efficiently
+                        with centralized control.”
+                      </p>
+
+                      <small class="fw-semibold d-block">
+                        Rajesh Mehta (Director)
+                      </small>
+                    </div>
+                  </div>
+
+                  <!-- Card 3 -->
+                  <div class="col-md-6">
+                    <div
+                      class="bg-white text-dark p-4 rounded-4 shadow h-100 review-card"
+                    >
+                      <h6 class="text-uppercase text-muted small">
+                        Supermarket Business
+                      </h6>
+
+                      <h5 class="fw-semibold">
+                        Faster Billing & Inventory Accuracy
+                      </h5>
+
+                      <p class="mt-3 mb-2">
+                        “Billing speed improved drastically and inventory errors
+                        reduced significantly.”
+                      </p>
+
+                      <small class="fw-semibold d-block">
+                        Neha Sharma (Store Manager)
+                      </small>
+                    </div>
+                  </div>
+
+                  <!-- Card 4 -->
+                  <div class="col-md-6">
+                    <div
+                      class="bg-white text-dark p-4 rounded-4 shadow h-100 review-card"
+                    >
+                      <h6 class="text-uppercase text-muted small">
+                        Distribution Business
+                      </h6>
+
+                      <h5 class="fw-semibold">
+                        Real-Time Reporting & Insights
+                      </h5>
+
+                      <p class="mt-3 mb-2">
+                        “Reports are now instant and help us make better
+                        business decisions.”
+                      </p>
+
+                      <small class="fw-semibold d-block">
+                        Amit Verma (Operations Head)
+                      </small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Section -->
+    <section id="why" class="py-5 bg-light">
+      <div class="container">
+        <!-- Heading -->
+        <div class="text-center mb-5">
+          <h2 class="fw-bold display-6 mt-3 heading-line">
+            Why Businesses Need
+            <span class="text-gradient">Modern Solutions</span>
+          </h2>
+
+          <p class="text-muted fs-5 mt-3 mx-auto" style="max-width: 600px">
+            Overcome the limitations of traditional systems and unlock smarter,
+            faster, and more efficient business operations.
+          </p>
+        </div>
+
+        <!-- Cards -->
+        <div class="row g-4">
+          <!-- Billing -->
+          <div class="col-md-4">
+            <div class="card why-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-3 text-primary">
+                  <i class="bi bi-receipt fs-1"></i>
+                </div>
+                <h5 class="fw-bold">Billing Challenges</h5>
+                <p class="text-muted">
+                  Facing issues with GST invoicing, payment integration, or long
+                  billing queues? Manual billing and outdated POS systems slow
+                  down your checkout process and impact customer experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Accounting -->
+          <div class="col-md-4">
+            <div class="card why-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-3 text-success">
+                  <i class="bi bi-calculator fs-1"></i>
+                </div>
+                <h5 class="fw-bold">Accounting Complexity</h5>
+                <p class="text-muted">
+                  Managing daily transactions, maintaining accurate books, and
+                  handling GST returns can be stressful. Manual accounting
+                  consumes time and increases the risk of costly errors.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Inventory -->
+          <div class="col-md-4">
+            <div class="card why-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-3 text-warning">
+                  <i class="bi bi-box-seam fs-1"></i>
+                </div>
+                <h5 class="fw-bold">Inventory Management</h5>
+                <p class="text-muted">
+                  Struggling with stock tracking across multiple products,
+                  categories, and suppliers? Poor inventory control leads to
+                  stockouts or overstocking issues.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Insights -->
+          <div class="col-md-4">
+            <div class="card why-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-3 text-danger">
+                  <i class="bi bi-bar-chart-line fs-1"></i>
+                </div>
+                <h5 class="fw-bold">Lack of Business Insights</h5>
+                <p class="text-muted">
+                  Without proper analytics, tracking sales, customers, and
+                  performance becomes difficult. Businesses struggle to make
+                  data-driven decisions.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Integration -->
+          <div class="col-md-4">
+            <div class="card why-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-3 text-info">
+                  <i class="bi bi-diagram-3 fs-1"></i>
+                </div>
+                <h5 class="fw-bold">Integration Issues</h5>
+                <p class="text-muted">
+                  Managing separate systems for billing, inventory, and
+                  accounting creates confusion. Lack of integration leads to
+                  data mismatch and inefficiencies.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Operations -->
+          <div class="col-md-4">
+            <div class="card why-card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <div class="icon-box mb-3 text-secondary">
+                  <i class="bi bi-shop fs-1"></i>
+                </div>
+                <h5 class="fw-bold">Operational Inefficiency</h5>
+                <p class="text-muted">
+                  Handling invoicing, CRM, payments, and store operations
+                  manually is time-consuming. It reduces productivity and slows
+                  business growth.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="py-5 bg-white">
+      <div class="container">
+        <!-- Heading -->
+        <div class="text-center mb-5">
+          <h2 class="solution-heading mt-3">
+            Solutions That Actually
+            <span>Fix Business Problems</span>
+          </h2>
+
+          <p class="solution-subtext mt-3">
+            We don't just offer software — we solve real operational challenges
+            with practical, scalable solutions.
+          </p>
+        </div>
+
+        <!-- Content -->
+        <div class="row g-4">
+          <!-- Block 1 -->
+          <div class="col-md-6">
+            <div class="solution-card-alt h-100">
+              <h5 class="fw-semibold">Faster Billing & Checkout Experience</h5>
+              <p class="text-muted mt-2">
+                Long queues and slow billing can frustrate customers and impact
+                sales. Our solution ensures faster transactions, smooth payment
+                handling, and a seamless checkout experience that keeps your
+                business moving efficiently.
+              </p>
+            </div>
+          </div>
+
+          <!-- Block 2 -->
+          <div class="col-md-6">
+            <div class="solution-card-alt h-100">
+              <h5 class="fw-semibold">Simplified Business Operations</h5>
+              <p class="text-muted mt-2">
+                Managing multiple processes separately often leads to confusion
+                and inefficiency. We bring everything together into a
+                streamlined workflow so your operations run smoothly without
+                constant manual effort.
+              </p>
+            </div>
+          </div>
+
+          <!-- Block 3 -->
+          <div class="col-md-6">
+            <div class="solution-card-alt h-100">
+              <h5 class="fw-semibold">Accurate Inventory Control</h5>
+              <p class="text-muted mt-2">
+                Stock mismatches, overstocking, or running out of products can
+                hurt your business. Our approach gives you better visibility and
+                control over inventory, ensuring smarter stock management.
+              </p>
+            </div>
+          </div>
+
+          <!-- Block 4 -->
+          <div class="col-md-6">
+            <div class="solution-card-alt h-100">
+              <h5 class="fw-semibold">Actionable Insights & Growth</h5>
+              <p class="text-muted mt-2">
+                Making decisions without data is risky. We help you understand
+                your business better with meaningful insights, enabling smarter
+                decisions and long-term growth.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer-modern pt-5">
+      <div class="container">
+        <div class="row gy-4">
+          <!-- Contact -->
+          <div class="col-md-2">
+            <h5 class="footer-title">Contact</h5>
+            <p class="footer-text mb-2">
+              <a href="tel:+911234567890" class="footer-link"
+                >+91 12345 67890</a
+              >
+            </p>
+            <p class="footer-text mb-3">
+              <a href="mailto:info@bizsolutions.com" class="footer-link"
+                >info@solutions.com</a
+              >
+            </p>
+
+            <!-- Socials -->
+            <div class="footer-socials">
+              <a href="#"><i class="bi bi-facebook"></i></a>
+              <a href="#"><i class="bi bi-linkedin"></i></a>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+
+          <!-- Brand -->
+          <div class="col-md-4">
+            <h5 class="footer-title">VaSyERP</h5>
+
+            <p class="footer-text">
+              Helping businesses grow with smart, scalable digital solutions
+              designed to simplify operations and improve efficiency.
+            </p>
+
+            <!-- Extra line (positioning) -->
+            <p class="footer-text small">
+              Trusted by modern retailers and businesses to streamline billing,
+              inventory, and day-to-day operations with ease.
+            </p>
+
+            <!-- Highlights -->
+            <div class="footer-highlights">
+              <span>✔ Faster Operations</span>
+              <span>✔ Better Insights</span>
+              <span>✔ Scalable Growth</span>
+            </div>
+          </div>
+
+          <!-- Location -->
+          <div class="col-md-6">
+            <h5 class="footer-title">Our Location</h5>
+            <div class="map-container">
+              <iframe
+                src="https://maps.google.com/maps?q=23.03446,72.5040769&z=15&output=embed"
+                width="100%"
+                height="120"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+        <div class="footer-bottom text-center mt-4 pt-3">
+          <small>© 2026 VaSyERP. All rights reserved.</small>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
